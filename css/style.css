@@ -1,0 +1,34 @@
+
+/* start header section  */
+
+#intro-example {
+    height: 400px;
+}
+
+/* Height for devices larger than 992px */
+@media (min-width: 992px) {
+    #intro-example {
+        height: 600px;
+    }
+}
+
+/* end header section  */
+
+
+/* start footer section  */
+footer{
+    background: linear-gradient(rgba(0, 0, 0, 0.6) , rgba(0, 0, 0, 0.6)) ,url(../img/hero-bg.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.footer-home p, h6{
+    color: white;
+}
+
+.Khaled{
+    color: white;
+}
+/* end footer section  */
